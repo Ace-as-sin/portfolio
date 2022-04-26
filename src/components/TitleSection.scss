@@ -1,0 +1,42 @@
+@import "../global/styles.scss";
+
+.title-section--outer-container {
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+	width: 100vw;
+}
+
+.title--inner-container {
+	display: flex;
+	align-items: center;
+}
+
+.title {
+	margin: 0;
+	font-size: 128px;
+}
+
+h1.title {
+	margin-left: 40px;
+	color: $davysGray;
+}
+
+h2.title {
+	color: aliceblue;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: $davysGray;
+}
+
+.blue-bar {
+	height: 16px;
+	width: 200px;
+	background-color: $reactBlue;
+   margin-right: 40px;
+}
+
+.title-section--job-title {
+    margin-left: 40px;
+    color: $reactBlue;
+    font-size: 28px;
+}
