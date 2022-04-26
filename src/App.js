@@ -1,10 +1,14 @@
 import Nav from "./components/nav/nav.js";
+import "./App.scss";
 
 export default function App() {
 	return (
 		<div>
 			<Nav/>
-			<h1>Blake Trapnell</h1>
+		<img></img>
+		<section className={"home--outer-container"}>
+
+		</section>
 		</div>
 	);
 }
