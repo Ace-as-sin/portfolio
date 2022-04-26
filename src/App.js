@@ -1,14 +1,17 @@
 import Nav from "./components/nav/nav.js";
 import "./App.scss";
 
+import PortfolioPhoto from "./images/portfolioPhoto.png";
+
 export default function App() {
 	return (
 		<div>
-			<Nav/>
-		<img></img>
-		<section className={"home--outer-container"}>
-
-		</section>
+			<Nav />
+			<section className={"home--outer-container"}>
+				<div className="home--profile-photo-container">
+					<img className="home--profile-photo" src={PortfolioPhoto} alt="Blake Trapnell Web Developer"></img>
+				</div>
+			</section>
 		</div>
 	);
 }
