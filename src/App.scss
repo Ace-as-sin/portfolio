@@ -1,5 +1,11 @@
 @import "./global/styles.scss";
 
+article {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
 .home--outer-container {
     display: flex;
     flex-direction: column;
