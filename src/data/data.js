@@ -3,7 +3,7 @@ import gatsbyLogo from "../images/gatsby.png";
 import nextLogo from "../images/next.png";
 import htmlLogo from "../images/html5.png";
 import javaScriptLogo from "../images/js.png";
-import typeScriptLogo from "../images/typeScript.png";
+import typeScriptLogo from "../images/ts.png";
 import cssLogo from "../images/css3.png";
 import postgresqlLogo from "../images/postgresql.webp";
 import figmaLogo from "../images/figma.webp";
