@@ -1,3 +1,5 @@
+@import "../global/styles.scss";
+
 .carousel--container {
     display: flex;
 }
@@ -21,5 +23,20 @@
     }
     a {
         text-decoration: none;
+    }
+
+    .carousel--show-position-container {
+        width: fit-content;
+        height: 30px;
+    }
+
+    .carousel--carousel-position {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: $javascriptYellow;
+    }
+    .carousel--carousel-position.active {
+        background-color:  $rebeccaPurple;
     }
 }
