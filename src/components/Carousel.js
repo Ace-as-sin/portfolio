@@ -9,7 +9,7 @@ const Carousel = (props) => {
 	let position = props.position || 0;
 	let carouselItemWidth = props.carouselItemWidth || 150;
 	let showCarouselPostition = props.showCarouselPostition || true;
-	const carouselItemSpacing = props.carouselItemSpacing || 20;
+	const carouselItemSpacing = props.carouselItemSpacing || 50;
 	useEffect(() => {
 		const updatedWindowWidth = window.innerWidth;
 		setWindowWidth(updatedWindowWidth);
