@@ -2,7 +2,7 @@ import reactLogo from "../images/react.png";
 import gatsbyLogo from "../images/gatsby.png";
 import nextLogo from "../images/next.png";
 import htmlLogo from "../images/html5.png";
-import javaScriptLogo from "../images/javaScript.png";
+import javaScriptLogo from "../images/js.png";
 import typeScriptLogo from "../images/typeScript.png";
 import cssLogo from "../images/css3.png";
 import postgresqlLogo from "../images/postgresql.webp";
