@@ -1,0 +1,40 @@
+.sign--outer-container {
+  position: relative;
+  height: 40vh;
+  max-height: 40vw;
+  width: 40vw;
+  max-width: 40vh;
+  background-color: rgba(165, 165, 165, 0.24);
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.sign--b-container {
+  position: relative;
+}
+
+.sign--b {
+  width: 20px;
+  height: 90%;
+  border-radius: 0;
+  rotate: 180deg;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.sign--b--line {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sign--b-curve-top {
+  height: 45%;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+}
