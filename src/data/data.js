@@ -9,7 +9,7 @@ import postgresqlLogo from "../images/postgresql.webp";
 import figmaLogo from "../images/figmaLogo.webp";
 import photoshopLogo from "../images/photoshop.svg";
 import githubLogo from "../images/github.png";
-import bitBucketLogo from "../images/bitBucket.png";
+import bitBucketLogo from "../images/bitBucketLogo.png";
 import vscodeLogo from "../images/vscode.png";
 import leagueLogo from "../images/league.png";
 import graphqlLogo from "../images/graphql.png";
