@@ -52,6 +52,11 @@ body {
   caret-color: transparent;
 }
 
+button {
+	  font-family: 'Tilt Neon', cursive, sans-serif;
+	  
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

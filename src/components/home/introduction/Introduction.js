@@ -23,14 +23,15 @@ export default function Introduction() {
       </motion.strong>
     );
   };
+
   return (
-    <section className={"introduction--outer-container"}>
+    <section id="introduction" className={"introduction--outer-container"}>
       <div className={"introduction"}>
         <div className="text-container">
           <h2>Hi, i'm</h2>
           <div className="introduction--animation-container">
             {/* <SvgAnimation /> */}
-              <BlakeText />
+            <BlakeText />
           </div>
           <p>
             I'm a software engineer and web developer <br /> with a passion for
@@ -41,6 +42,25 @@ export default function Introduction() {
             <br />
             websites and applications.
           </p>
+          <div className="introduction--download">
+            <p>Download my Resume</p>
+            <a
+              href="/BlakeTrapnellResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <motion.button
+                className="introduction--button rainbow"
+                whileHover={{
+                  scale: 1.1,
+                  transition: { duration: .4, },
+                }}
+              >
+                <sh></sh>
+                Here
+              </motion.button>
+            </a>
+          </div>
         </div>
       </div>
     </section>

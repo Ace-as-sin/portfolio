@@ -9,10 +9,14 @@
   color: white;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 64px;
+  padding-bottom: 64px;
 
   h2 {
     font-size: 72px;
     margin: 64px 0;
+
+    @media  (max-width: 480px) {
+     font-size: 52px;
+    }
   }
 }
