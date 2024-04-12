@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { useState, useLayoutEffect } from "react";
 
 const ProjectCard = ({ image, skills, link, reverse = false, clipPath }) => {
-  console.log(skills);
 
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
@@ -19,36 +18,35 @@ const ProjectCard = ({ image, skills, link, reverse = false, clipPath }) => {
 
   return (
     <motion.a
-    className="project-card"
-    whileHover={{
-      boxShadow: `0 0 36px ${skills[0].color}`,
-      transition: { duration: 0.2 }, // Duration for hover animation
-    }}
-    href={link}
-    target="_blank norel nonoppener"
-    style={{
-      flexDirection: isSmallScreen ? "column" : (reverse ? "row-reverse" : "row"),
-      transition: "box-shadow 0.3s", // Transition for box shadow change
-      boxShadow: `0 0 24px ${skills[0].color}`,
-    }}
-  >
+      className="project-card"
+      whileHover={{
+        boxShadow: `0 0 36px ${skills[0].color}`,
+        transition: { duration: 0.2 }, // Duration for hover animation
+      }}
+      href={link}
+      target="_blank norel nonoppener"
+      style={{
+        flexDirection: isSmallScreen
+          ? "column"
+          : reverse
+          ? "row-reverse"
+          : "row",
+        transition: "box-shadow 0.3s", // Transition for box shadow change
+        boxShadow: `0 0 24px ${skills[0].color}`,
+      }}
+    >
       <img
         className="project--website-photo"
         src={image}
         alt="Project website example"
         style={{ clipPath }}
-        />
- 
+      />
+
       <div className="skills">
         {skills.map((skill, index) => {
-          const { img, title, color, alt, link } = skill;
+          const { img, title, color, alt } = skill;
           return (
-            <a
-              href={link}
-              target="_blank norel nonreferrer"
-              key={index}
-              className="skill"
-            >
+            <div key={index} className="skill">
               <p>{title}</p>
               <motion.img
                 src={img}
@@ -59,7 +57,7 @@ const ProjectCard = ({ image, skills, link, reverse = false, clipPath }) => {
                 }}
                 style={{ filter: `drop-shadow(0 0 10px ${color})` }} // Initial filter
               />
-            </a>
+            </div>
           );
         })}
       </div>
