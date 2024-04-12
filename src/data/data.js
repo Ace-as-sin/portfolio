@@ -61,7 +61,7 @@ export const SmartySkills = [
   },
   {
     title: "Postgresql",
-    link: "https://en.wikipedia.org/wiki/PostgreSQL/",
+    link: "https://www.postgresql.org/",
     color: "#3178C6",
     img: postgresqlLogo,
     alt: "postgresql Language",
@@ -263,7 +263,7 @@ export const languages = [
   },
   {
     title: "Postgresql",
-    link: "https://en.wikipedia.org/wiki/PostgreSQL/",
+    link: "https://www.postgresql.org/",
     color: "#3178C6",
     img: postgresqlLogo,
     alt: "postgresql Language",

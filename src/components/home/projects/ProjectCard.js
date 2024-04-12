@@ -16,6 +16,12 @@ const ProjectCard = ({ image, skills, link, reverse = false, clipPath }) => {
     return () => window.removeEventListener("resize", updateSize);
   }, []);
 
+  const handleSkillsClick = (e, link) => {
+    e.stopPropagation(); // Prevent the click event from bubbling up to the parent link
+    // Navigate to the skills page
+    window.open(link, "_blank", "noreferrer noopener");
+  };
+
   return (
     <motion.a
       className="project-card"
@@ -44,9 +50,9 @@ const ProjectCard = ({ image, skills, link, reverse = false, clipPath }) => {
 
       <div className="skills">
         {skills.map((skill, index) => {
-          const { img, title, color, alt } = skill;
+          const { img, title, color, alt, link } = skill;
           return (
-            <div key={index} className="skill">
+            <div key={index} className="skill" onClick={(e)=>{handleSkillsClick(e, link)}}>
               <p>{title}</p>
               <motion.img
                 src={img}

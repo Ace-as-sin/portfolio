@@ -54,10 +54,6 @@ const Navigation = () => {
           />
         </li>
         <li>
-          <NavigationLink text="Skills" delay={0.6} color={"blue"} />
-        </li>
-
-        <li>
           <NavigationLink text="About" delay={1} color={"blue"} />
         </li>
         <li>
