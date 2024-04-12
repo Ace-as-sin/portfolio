@@ -6,7 +6,7 @@ import javaScriptLogo from "../images/js.png";
 import typeScriptLogo from "../images/ts.png";
 import cssLogo from "../images/css3.png";
 import postgresqlLogo from "../images/postgresql.webp";
-import figmaLogo from "../images/figma.webp";
+import figmaLogo from "../images/figmaLogo.webp";
 import photoshopLogo from "../images/photoshop.svg";
 import githubLogo from "../images/github.png";
 import bitBucketLogo from "../images/bitBucket.png";
