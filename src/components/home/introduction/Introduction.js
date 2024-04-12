@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import "./introduction.scss";
-import SvgAnimation from "./SvgAnimation.js";
+// import SvgAnimation from "./SvgAnimation.js";
+import BlakeText from "./BlakeText.js";
 
 export default function Introduction() {
   const colorHover = (color, colorHover, text, fontSize) => {
@@ -26,9 +27,10 @@ export default function Introduction() {
     <section className={"introduction--outer-container"}>
       <div className={"introduction"}>
         <div className="text-container">
-          <h1>Hi, i'm</h1>
+          <h2>Hi, i'm</h2>
           <div className="introduction--animation-container">
-            <SvgAnimation />
+            {/* <SvgAnimation /> */}
+              <BlakeText />
           </div>
           <p>
             I'm a software engineer and web developer <br /> with a passion for

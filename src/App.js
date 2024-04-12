@@ -1,5 +1,5 @@
 import Nav from "./components/nav/nav.js";
-import Introduction from "./components/home/Introduction.js";
+import Introduction from "./components/home/introduction/Introduction.js";
 import "./App.scss";
 import Projects from "./components/home/projects/Projects.js";
 
