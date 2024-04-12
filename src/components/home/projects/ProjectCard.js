@@ -24,12 +24,11 @@ const ProjectCard = ({
       }}
       style={{
         flexDirection: !reverse ? "row" : "row-reverse",
-        boxShadow: `0 0 10px rgba(0, 0, 0, 0)`, // Initial box shadow
         transition: "box-shadow 0.3s", // Transition for box shadow change
         boxShadow: `0 0 12px ${glowColor}`,
       }}
     >
-      <img src={image} alt="Project Image" style={{ clipPath }} />
+      <img src={image} alt="Project website example" style={{ clipPath }} />
       <div className="skills">{skills}</div>
       <a href={link} target="_blank" rel="noopener noreferrer">
         Visit Website
