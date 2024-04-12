@@ -1,0 +1,18 @@
+@import "../../../global/styles.scss";
+
+.projects--outer-container {
+  width: 100%;
+  height: fit-content;
+  min-height: 600px;
+  background: $black;
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  gap: 64px;
+
+  h2 {
+    font-size: 72px;
+    margin: 64px 0;
+  }
+}

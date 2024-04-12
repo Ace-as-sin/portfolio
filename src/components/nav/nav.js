@@ -1,7 +1,15 @@
+
 import "./navigation.scss";
 import { motion } from "framer-motion";
 
-const NavigationLink = ({ text, color }) => {
+const NavigationLink = ({ text, color, nav }) => {
+  const scrollToNav = () => {
+    const element = document.getElementById(nav);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   const initialAnimation = {
     opacity: 0,
     textShadow: `0 0 0px ${color}`,
@@ -23,7 +31,7 @@ const NavigationLink = ({ text, color }) => {
       animate={commonAnimation}
       transition={{ duration: 0.2 }}
       whileHover={{ textShadow: `0 0 24px ${color}` }} // Increase glow on hover
-      href="#"
+      onClick={scrollToNav()}
     >
       {text}
     </motion.a>
@@ -38,11 +46,17 @@ const Navigation = () => {
       </div>
       <ul className="navigation--nav-container">
         <li>
-          <NavigationLink text="Skills" delay={0.6} color={"blue"} />
+          <NavigationLink
+            text="Projects"
+            delay={0.8}
+            color={"blue"}
+            nav={"#projects"}
+          />
         </li>
         <li>
-          <NavigationLink text="Projects" delay={0.8} color={"blue"} />
+          <NavigationLink text="Skills" delay={0.6} color={"blue"} />
         </li>
+
         <li>
           <NavigationLink text="About" delay={1} color={"blue"} />
         </li>

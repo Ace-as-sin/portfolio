@@ -1,18 +1,28 @@
 //colors
 $darkGray: #333432;
-$black: #070707;
-$aliceBlue: #E7ECEF;
-$davysGray: #50514F;
-$something: #C4C4C4;
-$somethingElse: #FFFCFF;
-$Russet: #7B3E19;
-$reactBlue: #31AFD4;
+$black: #0e0e0e;
+$aliceBlue: #e7ecef;
+$davysGray: #50514f;
+$something: #c4c4c4;
+$somethingElse: #fffcff;
+$Russet: #7b3e19;
+$reactBlue: #31afd4;
 $rebeccaPurple: #663399;
-$typeScriptBlue: #3178C6;
-$cssBlue: #264DE4;
-$htmlOrange: #E44D26;
+$typeScriptBlue: #3178c6;
+$cssBlue: #264de4;
+$htmlOrange: #e44d26;
 $blakeRed: #e42626;
-$javascriptYellow: #FDD83C;
+$javascriptYellow: #fdd83c;
+
+$rainbow: conic-gradient(
+    from 0.2turn at 50% 30%,
+    rgb(20, 120, 179),
+    rgb(247, 148, 29),
+    rgb(221, 50, 56),
+    rgb(252, 238, 33),
+    rgb(123, 78, 163)
+  )
+  2;
 
 //typography
-$Neon: "'Tilt Neon', cursive, sans-serif;"
+$Neon: "'Tilt Neon', cursive, sans-serif;";
