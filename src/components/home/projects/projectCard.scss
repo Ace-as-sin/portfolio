@@ -11,13 +11,23 @@
   cursor: pointer;
   border-radius: 8px;
   border: 5px solid white;
-
+  @media  (max-width: 768px) {
+    height: 640px;
+    flex-direction: column;
+  }
 }
 .project--website-photo {
   width: 33%;
   height: 100%;
   object-fit: cover;
   clip-path: polygon(0 0, 90% 0%, 100% 100%, 0% 100%);
+
+  @media  (max-width: 768px) {
+    width: 100%;
+    height: 33%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  
+  }
 }
 
 .skills {
@@ -28,6 +38,10 @@
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+
+  @media  (max-width: 768px) {
+    width: 100%;
+  }
 
 }
 
@@ -41,5 +55,8 @@
   img {
     height: 64px;
     width: auto;
+    @media  (max-width: 480px) {
+      height: 32px;
+    }
   }
 }
