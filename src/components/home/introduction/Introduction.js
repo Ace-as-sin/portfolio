@@ -46,7 +46,7 @@ export default function Introduction() {
             <p>Download my Resume</p>
             <a
               href="/BlakeTrapnellResume.pdf"
-              target="_blank"
+              target="_blank no-referrer no-opener"
               rel="noopener noreferrer"
             >
               <motion.button

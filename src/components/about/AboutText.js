@@ -11,13 +11,14 @@ const AboutText = () => {
         }}
         animate={{
           textShadow: [
+            "0 0 40px #6e2fb6",
             "0 0 10px #6e2fb6",
-            "0 0 5px #6e2fb6",
-            "0 0 20px #6e2fb6",
-            "0 0 30px #6e2fb6",
+            "0 0 40px #6e2fb6",
+            "0 0 10px #6e2fb6",
+            "0 0 40px #6e2fb6",
           ],
         }}
-        transition={{ duration: 8, repeat: Infinity }}
+        transition={{ duration: 4, repeat: Infinity }}
       >
         A
       </motion.span>
@@ -28,13 +29,14 @@ const AboutText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 30px #6e2fb6",
-            "0 0 5px #6e2fb6",
-            "0 0 30px #6e2fb6",
+            "0 0 40px #6e2fb6",
             "0 0 10px #6e2fb6",
+            "0 0 40px #6e2fb6",
+            "0 0 10px #6e2fb6",
+            "0 0 40px #6e2fb6",
           ],
         }}
-        transition={{ duration: 8, repeat: Infinity }}
+        transition={{ duration: 4, repeat: Infinity }}
       >
         B
       </motion.span>
@@ -45,18 +47,14 @@ const AboutText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 30px #6e2fb6",
-            "0 0 25px #6e2fb6",
-            "0 0 30px #6e2fb6",
-            "0 0 0px #6e2fb6",
+            "0 0 40px #6e2fb6",
+            "0 0 10px #6e2fb6",
+            "0 0 40px #6e2fb6",
+            "0 0 10px #6e2fb6",
+            "0 0 40px #6e2fb6",
           ],
         }}
-        transition={{
-          duration: 3,
-          repeat: Infinity,
-          repeatType: "reverse",
-          delay: 2,
-        }}
+        transition={{ duration: 4, repeat: Infinity }}
       >
         O
       </motion.span>
@@ -67,10 +65,11 @@ const AboutText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 30px #6e2fb6",
-            "0 0 5px #6e2fb6",
-            "0 0 30px #6e2fb6",
-            "0 0 30px #6e2fb6",
+            "0 0 40px #6e2fb6",
+            "0 0 10px #6e2fb6",
+            "0 0 40px #6e2fb6",
+            "0 0 10px #6e2fb6",
+            "0 0 40px #6e2fb6",
           ],
         }}
         transition={{ duration: 4, repeat: Infinity }}
@@ -84,13 +83,14 @@ const AboutText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 30px #6e2fb6",
-            "0 0 5px #6e2fb6",
-            "0 0 30px #6e2fb6",
-            "0 0 30px #6e2fb6",
+            "0 0 40px #6e2fb6",
+            "0 0 10px #6e2fb6",
+            "0 0 40px #6e2fb6",
+            "0 0 10px #6e2fb6",
+            "0 0 40px #6e2fb6",
           ],
         }}
-        transition={{ duration: 8, repeat: Infinity }}
+        transition={{ duration: 4, repeat: Infinity }}
       >
         T
       </motion.span>

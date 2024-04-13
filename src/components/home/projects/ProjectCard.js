@@ -30,7 +30,7 @@ const ProjectCard = ({ image, skills, link, reverse = false, clipPath }) => {
         transition: { duration: 0.2 }, // Duration for hover animation
       }}
       href={link}
-      target="_blank norel nonoppener"
+      target="_blank no-referrer no-opener"
       style={{
         flexDirection: isSmallScreen
           ? "column"

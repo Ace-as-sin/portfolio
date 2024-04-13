@@ -11,13 +11,17 @@ const ContactText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 10px #6e2fb6",
-            "0 0 5px #6e2fb6",
-            "0 0 20px #6e2fb6",
-            "0 0 30px #6e2fb6",
+            "0 0 30px #ff0000", // Red
+            "0 0 30px #ff7f00", // Orange
+            "0 0 30px #ffff00", // Yellow
+            "0 0 30px #00ff00", // Green
+            "0 0 30px #0000ff", // Blue
+            "0 0 30px #4b0082", // Indigo
+            "0 0 30px #9400d3", // Violet
+            "0 0 30px #ff0000", // Red
           ],
         }}
-        transition={{ duration: 8, repeat: Infinity }}
+        transition={{ duration: 4, repeat: Infinity }}
       >
         C
       </motion.span>
@@ -28,13 +32,17 @@ const ContactText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 30px #6e2fb6",
-            "0 0 5px #6e2fb6",
-            "0 0 30px #6e2fb6",
-            "0 0 10px #6e2fb6",
+            "0 0 30px #ff0000", // Red
+            "0 0 30px #ff7f00", // Orange
+            "0 0 30px #ffff00", // Yellow
+            "0 0 30px #00ff00", // Green
+            "0 0 30px #0000ff", // Blue
+            "0 0 30px #4b0082", // Indigo
+            "0 0 30px #9400d3", // Violet
+            "0 0 30px #ff0000", // Red
           ],
         }}
-        transition={{ duration: 8, repeat: Infinity }}
+        transition={{ duration: 4, repeat: Infinity }}
       >
         O
       </motion.span>
@@ -45,18 +53,17 @@ const ContactText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 30px #6e2fb6",
-            "0 0 25px #6e2fb6",
-            "0 0 30px #6e2fb6",
-            "0 0 0px #6e2fb6",
+            "0 0 30px #ff0000", // Red
+            "0 0 30px #ff7f00", // Orange
+            "0 0 30px #ffff00", // Yellow
+            "0 0 30px #00ff00", // Green
+            "0 0 30px #0000ff", // Blue
+            "0 0 30px #4b0082", // Indigo
+            "0 0 30px #9400d3", // Violet
+            "0 0 30px #ff0000", // Red
           ],
         }}
-        transition={{
-          duration: 3,
-          repeat: Infinity,
-          repeatType: "reverse",
-          delay: 2,
-        }}
+        transition={{ duration: 4, repeat: Infinity }}
       >
         N
       </motion.span>
@@ -67,10 +74,14 @@ const ContactText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 30px #6e2fb6",
-            "0 0 5px #6e2fb6",
-            "0 0 30px #6e2fb6",
-            "0 0 30px #6e2fb6",
+            "0 0 30px #ff0000", // Red
+            "0 0 30px #ff7f00", // Orange
+            "0 0 30px #ffff00", // Yellow
+            "0 0 30px #00ff00", // Green
+            "0 0 30px #0000ff", // Blue
+            "0 0 30px #4b0082", // Indigo
+            "0 0 30px #9400d3", // Violet
+            "0 0 30px #ff0000", // Red
           ],
         }}
         transition={{ duration: 4, repeat: Infinity }}
@@ -84,13 +95,17 @@ const ContactText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 30px #6e2fb6",
-            "0 0 5px #6e2fb6",
-            "0 0 30px #6e2fb6",
-            "0 0 30px #6e2fb6",
+            "0 0 30px #ff0000", // Red
+            "0 0 30px #ff7f00", // Orange
+            "0 0 30px #ffff00", // Yellow
+            "0 0 30px #00ff00", // Green
+            "0 0 30px #0000ff", // Blue
+            "0 0 30px #4b0082", // Indigo
+            "0 0 30px #9400d3", // Violet
+            "0 0 30px #ff0000", // Red
           ],
         }}
-        transition={{ duration: 8, repeat: Infinity }}
+        transition={{ duration: 4, repeat: Infinity }}
       >
         A
       </motion.span>
@@ -101,13 +116,17 @@ const ContactText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 30px #6e2fb6",
-            "0 0 5px #6e2fb6",
-            "0 0 30px #6e2fb6",
-            "0 0 30px #6e2fb6",
+            "0 0 30px #ff0000", // Red
+            "0 0 30px #ff7f00", // Orange
+            "0 0 30px #ffff00", // Yellow
+            "0 0 30px #00ff00", // Green
+            "0 0 30px #0000ff", // Blue
+            "0 0 30px #4b0082", // Indigo
+            "0 0 30px #9400d3", // Violet
+            "0 0 30px #ff0000", // Red
           ],
         }}
-        transition={{ duration: 8, repeat: Infinity }}
+        transition={{ duration: 4, repeat: Infinity }}
       >
         C
       </motion.span>
@@ -118,13 +137,17 @@ const ContactText = () => {
         }}
         animate={{
           textShadow: [
-            "0 0 30px #6e2fb6",
-            "0 0 5px #6e2fb6",
-            "0 0 30px #6e2fb6",
-            "0 0 30px #6e2fb6",
+            "0 0 30px #ff0000", // Red
+            "0 0 30px #ff7f00", // Orange
+            "0 0 30px #ffff00", // Yellow
+            "0 0 30px #00ff00", // Green
+            "0 0 30px #0000ff", // Blue
+            "0 0 30px #4b0082", // Indigo
+            "0 0 30px #9400d3", // Violet
+            "0 0 30px #ff0000", // Red
           ],
         }}
-        transition={{ duration: 8, repeat: Infinity }}
+        transition={{ duration: 4, repeat: Infinity }}
       >
         T
       </motion.span>
