@@ -34,7 +34,7 @@ export default function Introduction() {
             <BlakeText />
           </div>
           <p>
-            I'm a software engineer and web developer <br /> with a passion for
+            I'm a Full Stack Web Developer <br /> with a passion for
             creating <br />
             {colorHover("#ca8f06", "#ca8f06", "beautiful")} {",  "}
             {colorHover("#1168bf", "#1168bf", "inovative")} {",  "}

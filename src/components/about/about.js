@@ -13,9 +13,8 @@ const About = () => {
           meal, I'm always looking for something fun!
         </p>
         <p>
-          While coding even outside of work is still a fun activity and I have
-          alot of projects I'm working on, here are some of the other activities
-          I enjoy doing:
+         I love to code, but here are some of the other activities
+          I enjoy doing.
         </p>
         <p>During the week you can catch me</p>
         <ul>
