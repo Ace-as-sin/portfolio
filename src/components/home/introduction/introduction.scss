@@ -11,6 +11,11 @@
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 64px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  }
 }
 
 .introduction {

@@ -12,6 +12,10 @@
   clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
   background-size: cover;
   background-position: center;
+
+  @media screen and (max-width: 768px) {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+  }
   h2 {
     font-size: 72px;
     font-weight: 700;
@@ -28,6 +32,10 @@
   p {
     font-size: 36px;
     text-shadow: 0 0 6px black;
+    @media screen and (max-width: 768px) {
+      font-size: 24px;
+      text-align: left;
+    }
   }
 }
 
@@ -43,5 +51,9 @@
 
   li {
     padding: 4px 0;
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      font-weight: 500;
+    }
   }
 }

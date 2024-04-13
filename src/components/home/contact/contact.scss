@@ -9,6 +9,10 @@
   gap: 20px;
   padding-bottom: 24px;
 
+  @media screen and (max-width: 768px) { 
+    padding-top: 32px;
+  }
+
   h2 {
     font-size: 72px;
     font-weight: 700;
@@ -24,6 +28,11 @@
   p {
     font-size: 36px;
     text-shadow: 0 0 6px black;
+
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+        text-align: left;
+      }
   }
 }
 
@@ -36,9 +45,21 @@
   flex-direction: column;
   padding: 0 20px;
   padding-bottom: 120px;
+  text-wrap: wrap;
+  ul {
+    padding-top: 32px;
+  }
 
   li {
     padding: 4px 0;
     text-align: left;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+    font-weight: 500;
+    a {
+        text-wrap: wrap;
+    }
   }
 }
