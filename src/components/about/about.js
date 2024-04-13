@@ -18,7 +18,7 @@ const About = () => {
         </p>
         <p>During the week you can catch me</p>
         <ul>
-          <li>🌍 Traveling </li>
+          <li>🎴 Collecting pokemon cards </li>
           <li>🎸 Playing guitar</li>
           <li>📚 Reading books</li>
           <li>🎨 Painting Warhammer figures</li>
