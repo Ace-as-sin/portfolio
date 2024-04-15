@@ -21,8 +21,8 @@ const Image = ({ width = "100%", height = "100%", lowResSrc, highResSrc }) => {
   
     return (
       <div style={styles.wrapper}>
-        <img src={lowResSrc} style={lowResStyle} onLoad={handleImageOnLoad} />
-        <img src={highResSrc} style={highResStyle} onLoad={handleImageOnLoad} />
+        <img alt="background" src={lowResSrc} style={lowResStyle} onLoad={handleImageOnLoad} />
+        <img alt="background" src={highResSrc} style={highResStyle} onLoad={handleImageOnLoad} />
       </div>
     );
   };
