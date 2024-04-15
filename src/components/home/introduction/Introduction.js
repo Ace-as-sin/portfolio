@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import "./introduction.scss";
 // import SvgAnimation from "./SvgAnimation.js";
 import BlakeText from "./BlakeText.js";
+import LazyLoadImage from "../../LazyLoadImage.js";
+import lowResSrc from "../../../images/neonBackgroundBlurred.webp";
+import highResSrc from "../../../images/neonBackground.webp";
 
 export default function Introduction() {
   const colorHover = (color, colorHover, text, fontSize) => {
@@ -26,6 +29,7 @@ export default function Introduction() {
 
   return (
     <section id="introduction" className={"introduction--outer-container"}>
+      <LazyLoadImage lowResSrc={lowResSrc} highResSrc={highResSrc} />
       <div className={"introduction"}>
         <div className="text-container">
           <h2>Hi, i'm</h2>
