@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import "./introduction.scss";
 // import SvgAnimation from "./SvgAnimation.js";
 import BlakeText from "./BlakeText.js";
+import backgroundImage from "../../../images/neonBackground.webp"
 
 export default function Introduction() {
   const colorHover = (color, colorHover, text, fontSize) => {
@@ -25,7 +26,15 @@ export default function Introduction() {
   };
 
   return (
-    <section id="introduction" className={"introduction--outer-container"}>
+    <section
+      id="introduction"
+      className={"introduction--outer-container"}
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className={"introduction"}>
         <div className="text-container">
           <h2>Hi, i'm</h2>
@@ -34,8 +43,8 @@ export default function Introduction() {
             <BlakeText />
           </div>
           <p>
-            I'm a Full Stack Web Developer <br /> with a passion for
-            creating <br />
+            I'm a Full Stack Web Developer <br /> with a passion for creating{" "}
+            <br />
             {colorHover("#ca8f06", "#ca8f06", "beautiful")} {",  "}
             {colorHover("#1168bf", "#1168bf", "inovative")} {",  "}
             {colorHover("#5dd1ac", "#5dd1ac", "user-friendly")}
@@ -53,7 +62,7 @@ export default function Introduction() {
                 className="introduction--button rainbow"
                 whileHover={{
                   scale: 1.1,
-                  transition: { duration: .4, },
+                  transition: { duration: 0.4 },
                 }}
               >
                 <sh></sh>
