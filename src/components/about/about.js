@@ -8,7 +8,7 @@ const About = () => {
       <AboutText />
       <div className="about--text-container">
         <p>
-          Hi 👋 belive it or not outside of coding I also have other hobbies
+          Hi 👋 believe it or not outside of coding I also have other hobbies
           haha! whether it's a good book, a competitive game, or a delicious
           meal, I'm always looking for something fun!
         </p>

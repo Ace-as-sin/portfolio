@@ -9,7 +9,7 @@ const Contact = () => {
       <ContactText />
       <div className="contact--text-container">
         <p>
-          Want to reach out, or interested in know more? feel free to reach me
+          Want to reach out, or interested in knowing more? feel free to reach me
           at any of these places. Maybe share your favorite game, book, or
           project with me!
         </p>
